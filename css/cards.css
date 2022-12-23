@@ -1,0 +1,42 @@
+.cards {
+  width: 100%;
+  background-color: var(--bg-main);
+}
+
+.cards__container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 150px 150px;
+  gap: 2rem;
+  row-gap: 5rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.card__item {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__item h2 {
+  color: var(--white);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card__item p{
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  line-height: 140%;
+  opacity: 0.6;
+}
