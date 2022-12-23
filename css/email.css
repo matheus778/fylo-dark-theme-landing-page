@@ -1,7 +1,6 @@
 .email {
   width: 100%;
   background-color: var(--bg-main);
-  padding-top: 5rem;
 }
 
 .email__container {

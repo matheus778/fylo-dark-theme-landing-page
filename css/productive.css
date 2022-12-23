@@ -10,7 +10,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 4rem
+  gap: 4rem;
+  margin-bottom: 10rem;
 }
 
 .productive__container img {

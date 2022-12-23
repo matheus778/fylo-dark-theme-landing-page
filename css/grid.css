@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  background-color: var(--bg-main);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto 50vh;
+  row-gap: 5rem;
+  grid-template-areas: 
+  'nav nav nav nav'
+  'main main main main'
+  'card card card card'
+  'prod prod prod prod'
+  'testi testi testi testi'
+  'email email email email'
+  'footer footer footer footer'
+  ;
+}
+
+.navbar {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
+}
+
+.cards {
+  grid-area: card;
+}
+
+.productive {
+  grid-area: prod;
+}
+
+.testimonials {
+  grid-area: testi;
+}
+
+.email {
+  grid-area: email;
+}
+
+.footer {
+  grid-area: footer;
+}

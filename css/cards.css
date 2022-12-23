@@ -1,19 +1,20 @@
 .cards {
   width: 100%;
-  background-color: var(--bg-main);
 }
 
 .cards__container {
   width: 90%;
+  padding-top: 5rem;
   max-width: 1440px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 150px 150px;
   gap: 2rem;
-  row-gap: 5rem;
+  row-gap: 20rem;
   align-items: center;
   justify-items: center;
+  margin-bottom: 10rem;
 }
 
 .card__item {
