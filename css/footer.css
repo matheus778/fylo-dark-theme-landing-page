@@ -64,7 +64,7 @@
   flex-direction: column;
 }
 
-.footer__menu div a {
+.footer__menu div a, .attribution {
   margin-bottom: 1rem;
   color: var(--white);
   font-size: 1.4rem;
@@ -80,4 +80,13 @@
   align-items: flex-start;
   justify-content: end;
   gap: 2rem;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration-color: white;
+  color: white;
 }
