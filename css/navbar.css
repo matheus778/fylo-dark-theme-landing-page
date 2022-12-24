@@ -32,7 +32,7 @@
 }
 
 .navbar__container ul li a:hover {
-  color: white;
+  color: var(--cyan);
 }
 
 .navbar__container ul li a:hover::before {
@@ -41,7 +41,7 @@
   height: 2px;
   position: absolute;
   bottom: -5px;
-  background-color: white;
+  background-color: var(--cyan);
 }
 
 .navbar__logo img {

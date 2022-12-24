@@ -58,4 +58,9 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--white);
+  transition: 500ms;
+}
+
+.btn:hover{
+  opacity: 0.6;
 }
